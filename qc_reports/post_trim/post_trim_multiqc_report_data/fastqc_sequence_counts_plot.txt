@@ -1,0 +1,3 @@
+Sample	Unique Reads	Duplicate Reads
+R1_paired	1542059.0	928209.0
+R2_paired	1541595.0	928673.0

@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	R1_paired	/Users/yuks/Desktop/Sequencing-/WGS/qc_reports/post_trim/R1_paired_fastqc.zip
+FastQC	all_sections	R2_paired	/Users/yuks/Desktop/Sequencing-/WGS/qc_reports/post_trim/R2_paired_fastqc.zip
