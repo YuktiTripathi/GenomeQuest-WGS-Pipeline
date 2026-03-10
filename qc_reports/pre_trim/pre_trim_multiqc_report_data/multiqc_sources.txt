@@ -1,3 +1,0 @@
-Module	Section	Sample Name	Source
-FastQC	all_sections	SRR2584866_1	/Users/yuks/Desktop/Sequencing-/WGS/qc_reports/pre_trim/SRR2584866_1_fastqc.zip
-FastQC	all_sections	SRR2584866_2	/Users/yuks/Desktop/Sequencing-/WGS/qc_reports/pre_trim/SRR2584866_2_fastqc.zip
