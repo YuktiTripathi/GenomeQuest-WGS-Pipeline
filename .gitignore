@@ -10,6 +10,20 @@
 
 # Variant files
 *.vcf
+# Reference index files
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+*.fai
+*.dict
+
+# Variant index files
+*.idx
+
+# Alignment index
+*.bai
 
 # Large pipeline folders
 data/
