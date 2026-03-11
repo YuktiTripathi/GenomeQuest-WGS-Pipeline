@@ -1,34 +1,27 @@
+# Raw sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+
+# Alignment files
+*.sam
+*.bam
+*.bai
+
+# Variant files
+*.vcf
+
+# Large pipeline folders
 data/
+alignment/
 trimmed_reads/
+logs/
+qc_reports/
 
-alignment/*.bam
-alignment/*.bai
-alignment/*.sam
-reference/*.fasta
-reference/*.fa
-reference/*.amb
-reference/*.ann
-reference/*.bwt
-reference/*.pac
-reference/*.sa
-reference/*.dict
-reference/*.fai
-variants/bootstrap_rel606.vcf
-variants/bootstrap_rel606.vcf.idx
-variants/bootstrap_snps_rel606.vcf
-variants/bootstrap_snps_rel606.vcf.idx
-variants/bootstrap_filtered_rel606.vcf
-variants/bootstrap_filtered_rel606.vcf.idx
-variants/raw_variants_rel606_final.vcf
-variants/raw_variants_rel606_final.vcf.idx
-variants/raw_snps_rel606.vcf
-variants/raw_snps_rel606.vcf.idx
-variants/raw_indels_rel606.vcf
-variants/raw_indels_rel606.vcf.idx
-
-data/SRR2584866/
-.DS_Store
-
+# Python
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
+
+# Mac
+.DS_Store
+.ipynb_checkpoints
