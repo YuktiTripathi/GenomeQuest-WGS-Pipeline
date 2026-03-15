@@ -139,17 +139,23 @@ Genome size: 4.63 Mb
 Fraction of genome affected: 0.017%
 
 ### Repository Structure
-GenomeQuest-WGS-Pipeline
-│
-├── annotation/
-├── notebooks/
-├── reference/
-│   └── rel606.fasta
-├── scripts/
-├── variants/
-├── WGS.ipynb
-├── README.md
-└── .gitignore
+```mermaid
+flowchart TD
+
+A[GenomeQuest-WGS-Pipeline]
+
+A --> B[annotation]
+A --> C[notebooks]
+A --> D[reference]
+A --> E[scripts]
+A --> F[variants]
+A --> G[WGS.ipynb]
+A --> H[README.md]
+A --> I[.gitignore]
+
+D --> J[rel606.fasta]
+```
+
 Large sequencing files are excluded from the repository to keep the project lightweight.
 
 ### To run the pipeline:
